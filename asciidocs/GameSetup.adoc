@@ -1,0 +1,9 @@
+= Info
+ * The alignment (and position) can be reset (together with all other data) by double clicking the ChestButton
+
+= Note
+ * You start the Naos from the **left** side as seen from **your gate**.
+ * When tuhhNao is started, the NAOS define their current view as ** into the playing field **
+ * In Mate our TeamSide is always on the left
+
+image::https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/blob/master/wiki_images/FieldOrientation.png[Game Orientation] 

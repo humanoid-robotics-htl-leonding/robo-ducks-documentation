@@ -1,0 +1,18 @@
+= Installation
+
+Install https://www.anaconda.com/distribution/[Anaconda] or https://docs.conda.io/en/latest/miniconda.html[Miniconda].
+You might need to execute `chmod +x ./Miniconda-#version#` if you don't have permission to run the script.
+
+Execute `conda env create -f environment.yml` in this directory.
+
+= Execution
+Run `./start.sh`
+
+== Legacy way (use if other one is not working)
+Before running execute `conda activate MateEnv`.
+
+Run Mate with `python run.py`.
+
+= Connect to SimRobot
+SimRobot creates a socket-file (Can be opened exactly like a proper Socket, and behaves exactly the same as normal network-sockets are also treated as files by linux) for every Simulated Robot. These files are located at:
+`/tmp/simrobot/[robotname]`. eg: `/tmp/simrobot/robot2`
