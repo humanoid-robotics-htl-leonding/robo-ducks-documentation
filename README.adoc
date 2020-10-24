@@ -1,0 +1,3 @@
+= RoboDucks GhPages
+
+This is used as a documentation.
