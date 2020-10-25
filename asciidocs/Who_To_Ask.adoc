@@ -2,26 +2,27 @@
 
 == Midas
 Initially Programmed by Erik Mayrhofer (5BHIF 19/20).
-Continues to be maintained by Emina (3AHIF 19/20).
+Continues to be maintained by Emina (4AHIF 20/21).
 
 == DucksBehaviour
-Erik Mayrhofer (5BHIF 19/20)
+* (former member) Erik Mayrhofer (5BHIF 19/20)
 
 == Vision
-Florian Schwarcz (5BHIF 19/20)
+* (former member) Florian Schwarcz (5BHIF 19/20)
 
 == Motion
-Maximilian Wahl (5BHIF 19/20)
+* (former member) Maximilian Wahl (5BHIF 19/20)
 
 == Toolchain/Compiling
-Erik Mayrhofer (5BHIF 19/20)
+* (former member) Erik Mayrhofer (5BHIF 19/20)
 
 == Mate
-Florian Schwarcz (5BHIF 19/20)
-Will be replaced by Helferlein, Jan Neuburger (5BHIF 19/20)
+* (former member) Florian Schwarcz (5BHIF 19/20)
+
+Will be replaced by Helferlein, (former member)Jan Neuburger (5BHIF 19/20)
 
 == Flashing Robots
-* Florian Schwarcz / Maximilian Wahl (5BHIF 19/20)
+* (former members) Florian Schwarcz / Maximilian Wahl (5BHIF 19/20)
 * Emina (4AHIF)
 * Quirin (4AHITM)
  
