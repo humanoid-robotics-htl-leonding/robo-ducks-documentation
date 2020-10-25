@@ -1,0 +1,28 @@
+== HULK bad
+
+The old HULKs Kick implementation was bad and kinda janky.
+
+* They implemented a target vector but didn't use it to set their KickType
+* They implemented a kick to the side but never used it
+* They could only kick with full power
+
+So I made it better/more versatile.
+
+== Ducks good
+
+So I implemented all these things, but:
+
+* the kick-Distance only has 3 different settings, which are grouped by the set target distance.
+* the kick to the side also has 3 stages, center, right and left (basically they are the same but have to be kicked with different feet)
+* the KickType is now invisible to the outside world.
+
+== Functionality
+
+New Kicks should be verified regarding their direction (Kicking to the right or straight with the left foot or vice versa): static method isValidKick; takes in BallSource and BallTarget Vectors.
+
+The Kick ActionCommand now has 3 Paramaters: BallSource, BallTarget and ForceHammer.
+ForceHammer tells the Kick-Handling that the kick should proceed with maximum power regardless of set  BallTarget (useful for kicking into goal for example)(is false per default).
+
+If you have further questions about specifics or configurations just ask me.
+
+With that, happy kicking.

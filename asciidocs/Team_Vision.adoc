@@ -1,0 +1,13 @@
+= Team Vision
+
+== Tasks
+
+* Center Circle Detection
+* Line Intersection Detection
+* Camera Calibration
+
+== Members
+* (former member) **Florian Schwarcz**
+* Christoph Knoll
+* Mathias Bal
+* Marc Kruiß

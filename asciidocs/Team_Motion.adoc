@@ -1,0 +1,16 @@
+= Team Motion
+
+== Tasks
+
+* Safe kicks (falling when hot)
+* Path optimization
+* Safe and fast walk (depends on surroundings (a lot of NAOs or not))
+* Balance overhaul
+* Motor usage reduction
+* More accurate kicks (direction and distance)
+
+== Members
+
+* (former member) **Maximilian Wahl**
+* Florentin Gewessler
+* Lukas Gaisbauer

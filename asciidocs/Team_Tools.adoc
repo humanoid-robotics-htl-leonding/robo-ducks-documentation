@@ -1,0 +1,12 @@
+= Tools
+
+The objective of the tools team is to provide the whole team with software that supports development, debugging and monitoring in order to make it easier for future team members to get into the project and understand what is going on behind the scenes and also to decrease complexity of debugging for the current team.
+
+== Tasks
+
+* https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/wiki/Helferlein[Helferlein - The new monitoring tool]
+
+== Members
+* (former member) **Jan Neuburger**
+* Vanessa Primetzhofer
+* Dominik

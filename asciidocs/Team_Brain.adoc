@@ -1,0 +1,15 @@
+= Brain
+
+For info about the "Brain" component, https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/wiki/Code-Brain[click here]. General Notes and Tasks for the Brain Team.
+To get help with problems with the Brain component, https://www.youtube.com/watch?v=dQw4w9WgXcQ[click here]
+
+== Tasks
+* Corner & Kick in Roles
+
+== Members
+* (fromer member) **Erik Mayrhofer**
+* (fromer member) Jan Neuburger
+* Quirin Ecker
+* Vanessa Primetzhofer
+* Phillip Edlinger
+* Simon Holzapfel
