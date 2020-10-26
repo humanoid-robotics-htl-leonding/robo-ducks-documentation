@@ -3,69 +3,46 @@
 ifdef::backend-html5[]
 
 == Who To Ask
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Who_To_Ask[Who to Ask]
+link:Who_To_Ask[Who to Ask]
 
 == NAOs
 
-=== Anastasia
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Ana[Anastasia]
-
-=== Tom
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Tom[Tom]
-
-=== Luc
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Luc[Luc]
-
-=== Judy
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Judy[Judy]
-
-=== Eve
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Eve[Eve]
-
-=== Bob
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Bob[Bob]
-
-=== Grace
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Grace[Grace]
-
-=== Donald
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Donald[Donald]
-
-=== Linus
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Linus[Linus]
-
-=== Margaret
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Margaret[Margaret]
+- link:NAOs/Nao_Ana.adoc[Anastasia]
+- link:NAOs/Nao_Tom.adoc[Tom]
+- link:NAOs/Nao_Luc.adoc[Luc]
+- link:NAOs/Nao_Judy.adoc[Judy]
+- link:NAOs/Nao_Eve.adoc[Eve]
+- link:NAOs/Nao_Bob.adoc[Bob]
+- link:NAOs/Nao_Grace.adoc[Grace]
+- link:NAOs/Nao_Donald.adoc[Donald]
+- link:NAOs/Nao_Linus.adoc[Linus]
+- link:NAOs/Nao_Margaret.adoc[Margaret]
 
 == Setup
 
-=== Game Setup
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/GameSetup[GameSetup]
+- link:Setup/GameSetup.adoc[Game Setup]
 
-=== MATE
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Mate[Mate]
+== Tools
+
+- link:Tools/Mate.adoc[Mate]
 
 == Code Docs
 
 === Brain
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Brain[Brain]
 
-=== Regarding Kicks
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Regarding_Kicks[Regarding Kicks]
-
-=== Helferlein
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Helferlein[Helferlein]
-
-== Teams
-
-=== Brain
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Team_Brain[Team Brain]
+- link:CodeDocs/Brain/Team_Brain.adoc[Team Brain]
+- link:CodeDocs/Brain/Brain.adoc[Brain]
+- link:CodeDocs/Brain/Regarding_Kicks.adoc[Regarding Kicks]
+- link:CodeDocs/Brain/Helferlein.adoc[Helferlein]
 
 === Motion
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Team_Motion[Team Motion]
+
+- link:CodeDocs/Motion/Team_Motion.adoc[Team Motion]
 
 === Vision
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Team_Vision[Team Vision]
+
+- link:CodeDocs/Vision/Team_Vision.adoc[Team Vision]
 
 === Tools
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Team_Tools[Team Tools]
+
+- link:CodeDocs/Tools/Team_Tools.adoc[Team Tools]
