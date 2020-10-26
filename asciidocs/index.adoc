@@ -7,42 +7,42 @@ link:Who_To_Ask[Who to Ask]
 
 == NAOs
 
-- link:NAOs/Nao_Ana.adoc[Anastasia]
-- link:NAOs/Nao_Tom.adoc[Tom]
-- link:NAOs/Nao_Luc.adoc[Luc]
-- link:NAOs/Nao_Judy.adoc[Judy]
-- link:NAOs/Nao_Eve.adoc[Eve]
-- link:NAOs/Nao_Bob.adoc[Bob]
-- link:NAOs/Nao_Grace.adoc[Grace]
-- link:NAOs/Nao_Donald.adoc[Donald]
-- link:NAOs/Nao_Linus.adoc[Linus]
-- link:NAOs/Nao_Margaret.adoc[Margaret]
+- link:Nao_Ana[Anastasia]
+- link:Nao_Tom[Tom]
+- link:Nao_Luc[Luc]
+- link:Nao_Judy[Judy]
+- link:Nao_Eve[Eve]
+- link:Nao_Bob[Bob]
+- link:Nao_Grace[Grace]
+- link:Nao_Donald[Donald]
+- link:Nao_Linus[Linus]
+- link:Nao_Margaret[Margaret]
 
 == Setup
 
-- link:Setup/GameSetup.adoc[Game Setup]
+- link:GameSetup[Game Setup]
 
 == Tools
 
-- link:Tools/Mate.adoc[Mate]
+- link:Mate[Mate]
 
 == Code Docs
 
 === Brain
 
-- link:CodeDocs/Brain/Team_Brain.adoc[Team Brain]
-- link:CodeDocs/Brain/Brain.adoc[Brain]
-- link:CodeDocs/Brain/Regarding_Kicks.adoc[Regarding Kicks]
-- link:CodeDocs/Brain/Helferlein.adoc[Helferlein]
+- link:Team_Brain[Team Brain]
+- link:Brain[Brain]
+- link:Regarding_Kicks[Regarding Kicks]
+- link:Helferlein[Helferlein]
 
 === Motion
 
-- link:CodeDocs/Motion/Team_Motion.adoc[Team Motion]
+- link:Team_Motion[Team Motion]
 
 === Vision
 
-- link:CodeDocs/Vision/Team_Vision.adoc[Team Vision]
+- link:Team_Vision[Team Vision]
 
 === Tools
 
-- link:CodeDocs/Tools/Team_Tools.adoc[Team Tools]
+- link:Team_Tools[Team Tools]
