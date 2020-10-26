@@ -1,0 +1,11 @@
+= Margaret
+
+== General Info (Stand 15.11.2019)
+* Name: "Margaret"
+
+== 12.12.2019
+* 🦀Runtime errors are gone🦀
+
+== 10.12.2019
+* Compiled tuhhnao
+* Runtime errors when running tuhhnao

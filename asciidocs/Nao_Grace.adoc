@@ -1,0 +1,8 @@
+= Grace
+
+
+== General Info (Stand 15.11.2019)
+* Name: "Grace"
+
+=== 25.10.2019
+Geflasht, da man sich mit ssh verbinden konnte aber nicht über Choreographe.

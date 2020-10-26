@@ -1,0 +1,10 @@
+= Tom
+
+== General Info (Stand 22.05.2019)
+* Name: "Tom"
+* Player no.: 2
+
+== 22.05.2019
+* Issued ```echo "Tom" > /etc/hostname```
+* Updated Language Packs
+

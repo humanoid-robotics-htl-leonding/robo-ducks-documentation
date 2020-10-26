@@ -1,0 +1,84 @@
+= Judy
+
+
+== General Info (Stand 14.05.2019)
+* Name: "Judy"
+* Player no.: 4
+
+== 3.9.2019
+* swapped battery with battery of **this** box
+https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/blob/master/wiki_images/IMG_20190903_172328.jpg[Batterybox1]
+
+== 25.06.2019
+
+Judy is not able to stand up because of the left hip motor.
+
+== 17.06.2019
+
+* Issued `echo "Judy" >> /etc/hostname`
+* Gammaray
+
+== 21.05.2019
+We could not retrieve Judy's camera feed.
+* Compiled and uploaded (with -c)
+* Gammaray
+* Didn't help
+* Flash
+* Gammaray
+* Compiled and uploaded (with -c)
+* Didn't help
+
+== 14.05.2019
+We tried to run tuhhnao on Judy. Then this error occurred.
+
+[source]
+----
+roboducks16 [0] ~/naoqi/bin $ ./tuhhNao
+[TUHH_INFO	] Starting tuhhNao!
+ALSA lib pcm_dmix.c:1035:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[TUHH_INFO	] Could not open PortAudio input device, will retry.
+ALSA lib pcm_dmix.c:1035:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[TUHH_INFO	] Could not open PortAudio input device, will retry.
+ALSA lib pcm_dmix.c:1035:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[TUHH_INFO	] Could not open PortAudio input device, will retry.
+^CALSA lib pcm_dmix.c:1035:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[TUHH_INFO	] Could not open PortAudio input device, will retry.
+ALSA lib pcm_dmix.c:1035:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[TUHH_INFO	] Could not open PortAudio input device, will retry.
+ALSA lib pcm_dmix.c:1035:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[TUHH_INFO	] Could not open PortAudio input device, will retry.
+ALSA lib pcm_dmix.c:1035:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+[TUHH_INFO	] Could not open PortAudio input device, will retry.
+ALSA lib pcm_dmix.c:1035:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+[TUHH_INFO	] Could not open PortAudio input device, will retry.
+ALSA lib pcm_dmix.c:1035:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+[TUHH_INFO	] Could not open PortAudio input device, will retry.
+ALSA lib pcm_dmix.c:1035:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+[TUHH_INFO	] Could not open PortAudio input device, will retry.
+[TUHH_ERROR	] Exception in NaoInterface or TUHH:
+[TUHH_ERROR	] No Default input device found.
+----
+
+* Gammaray
+* Didn't help
+* Flash
+* Gammaray
+* Didn't help
+* Setup via Web-Interface
+* Didn't help
+* Gammaray
+* Didn't help
+* **Upload with -c (Upload whole configs)**
+* Did help!
