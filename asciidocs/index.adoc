@@ -8,24 +8,34 @@ https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Who_To
 == NAOs
 
 === Anastasia
+https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Ana[Anastasia]
 
 === Tom
+https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Tom[Tom]
 
 === Luc
+https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Luc[Luc]
 
 === Judy
+https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Judy[Judy]
 
 === Eve
+https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Eve[Eve]
 
 === Bob
+https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Bob[Bob]
 
 === Grace
+https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Grace[Grace]
 
 === Donald
+https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Donald[Donald]
 
 === Linus
+https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Linus[Linus]
 
 === Margaret
+https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Nao_Margaret[Margaret]
 
 == Setup
 
