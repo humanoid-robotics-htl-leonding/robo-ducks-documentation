@@ -6,3 +6,6 @@
 
 === 25.10.2019
 Geflasht, da man sich mit ssh verbinden konnte aber nicht über Choreographe.
+
+=== 29.10.2020
+Nao is not working at the moment.
