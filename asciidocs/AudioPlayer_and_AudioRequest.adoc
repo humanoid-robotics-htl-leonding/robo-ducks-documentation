@@ -1,0 +1,33 @@
+= Audioplayer and Audiorequest
+
+The AudioPlayer is able to play simple Notes.
+
+== CombineAudio
+Using the `[ActionCommand].combineAudio(const Audio& audio)` command, one is able to add an Audio to the ActionCommand.
+The base ActionCommand uses a `Audio(0)`.
+
+== The Audio Constructor
+
+[source,cpp]
+----
+Audio(float frequency)
+----
+Constructs an Audio with the given Frequency. You are advised to use the static factory Functions
+
+[source,cpp]
+----
+ActionCommand::Audio::audioC4();
+ActionCommand::Audio::audioC5();
+ActionCommand::Audio::audioC6();
+...
+----
+
+Example Usage.
+
+[source,cpp]
+----
+ActionCommand::[...??].combineAudio(ActionCommand::Audio::audioC4());
+----
+
+== Inner Workings
+The BehaviourModule executes all Behaviours which construct an ActionCommand. This ActionCommand consists of MotionCommands, EyeLedCommands and AudioCommands, which then get converted into MotionRequests, EyeLedRequests and AudioRequests. These Requests are Productions of BehaviourModule and get handled by the responsive Modules (e.G Something from Motion etc). The AudioRequest gets handled by the AudioPlayer which plays the correct tone.
