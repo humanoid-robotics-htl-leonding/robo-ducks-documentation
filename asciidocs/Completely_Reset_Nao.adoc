@@ -1,0 +1,10 @@
+= Nao-Reset
+
+The purpose of this document is to illustrate the necessary steps to completely reset and flash a Nao.
+
+== Process
+1. Flash
+2. Setup via Webinterface
+3. Update?
+4. https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/wiki/Midas-Touch[Gammaray]
+5. https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/wiki/Midas[Compile and Upload]
