@@ -1,0 +1,71 @@
+= Adding Configurations for new Nao
+
+== ID Map
+
+If a robot is not configured in the id map you will get the following error log.
+
+[source,bash]
+----
+[TUHH_INFO    ] Starting tuhhNao!
+ALSA lib pcm_hw.c:1826:(_snd_pcm_hw_open) Invalid value for card
+ALSA lib pcm_hw.c:1826:(_snd_pcm_hw_open) Invalid value for card
+ALSA lib pcm_hw.c:1826:(_snd_pcm_hw_open) Invalid value for card
+ALSA lib pcm_hw.c:1826:(_snd_pcm_hw_open) Invalid value for card
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'defaults.pcm.dmix.channels'
+ALSA lib conf.c:4568:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5036:(snd_config_expand) Args evaluate error: No such file or directory
+ALSA lib pcm.c:2564:(snd_pcm_open_noupdate) Unknown PCM dmix
+[TUHH_DEBUG    ] Loading configuration /home/nao/naoqi/
+[TUHH_FANCY    ] Start init of tuhh
+[TUHH_DEBUG    ] Initialize XPM image
+[TUHH_DEBUG    ] Mounting name: sdk.json mount: tuhhSDK.base
+[TUHH_DEBUG    ] Mounting nao configuration with nao head: default, nao body: defaultand locationname: default
+[TUHH_DEBUG    ] Trying to mount: /home/nao/naoqi/configuration/location/default/sdk.json
+[TUHH_DEBUG    ] mounted /home/nao/naoqi/configuration/location/default/sdk.json to tuhhSDK.base
+[TUHH_INFO    ] NaoInterface::initNaoInfo
+[TUHH_INFO    ] Body ID: P0000073A09S98100025
+[TUHH_INFO    ] Head ID: P0000074A05S98100034
+[TUHH_DEBUG    ] Mounting name: id_map.json mount: NaoInterface.id_map
+[TUHH_DEBUG    ] Mounting nao configuration with nao head: default, nao body: defaultand locationname: default
+[TUHH_DEBUG    ] Trying to mount: /home/nao/naoqi/configuration/location/default/id_map.json
+[TUHH_DEBUG    ] mounted /home/nao/naoqi/configuration/location/default/id_map.json to NaoInterface.id_map
+[TUHH_ERROR    ] body could not be identified
+[TUHH_ERROR    ] head could not be identified
+[TUHH_ERROR    ] Exception in NaoInterface or TUHH:
+[TUHH_ERROR    ] Could not determine either body or headname
+----
+
+Add the following code block to the configuration file under the path in the code block below.
+
+[source]
+----
+/configuration/location/default/id_map.json/
+----
+
+[source,json]
+----
+{
+    "bodyid": "<body id in the error log>",
+    "headid": "<head id in the error log>",
+    "name": "<name of the robot>"
+}
+----
+
+== Adding brain configuration file
+Before the robot can work you need to create a brain configuration file in the format of the code block below.
+
+[source,json]
+----
+{
+  "general.playerNumber": 2,
+  "general.teamNumber": 1,
+  "behavior.playerRole": "player"
+}
+----
+
+This Configuration file should be in the following location
+
+[source]
+----
+/configuration/location/default/head/<RobotName>/Brain.json
+----
