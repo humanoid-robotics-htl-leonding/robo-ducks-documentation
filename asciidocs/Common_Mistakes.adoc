@@ -1,0 +1,15 @@
+= Cannot open tuhh_shared_memory:
+== Symptoms:
+
+[source, bash]
+----
+[TUHH_INFO      ] Try to open sharedMemory:  tuhh_shared_memory
+----
+
+== Solution:
+* Upload with -c to upload the configs
+
+== Explaination:
+The tuhh_shared_memory object is filled by libTUHHAlModule.so which is an ALModule and loaded when naoqi starts.
+It has to be registered in ~/naoqi/preferences/autoload.ini.
+This File is uploaded with the configs.
