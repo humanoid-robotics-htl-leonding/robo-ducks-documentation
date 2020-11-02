@@ -21,6 +21,7 @@ link:Who_To_Ask[Who to Ask]
 == Setup
 
 - link:GameSetup[Game Setup]
+- link:ConfiguringNewNao[Configuring new Nao]
 
 == Tools
 
