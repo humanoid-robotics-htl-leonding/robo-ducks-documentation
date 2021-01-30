@@ -13,3 +13,9 @@ To get help with problems with the Brain component, https://www.youtube.com/watc
 * Vanessa Primetzhofer
 * Phillip Edlinger
 * Simon Holzapfel
+
+== Docs
+- link:BrainDocs/AudioPlayer_and_AudioRequest[Audio Player and Audio Request]
+- link:BrainDocs/Brain[Brain]
+- link:BrainDocs/Regarding_Kicks[Regarding Kick]
+- link:BrainDocs/Helferlein[Helferlein]

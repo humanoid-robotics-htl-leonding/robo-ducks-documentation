@@ -5,45 +5,41 @@ ifdef::backend-html5[]
 == Who To Ask
 link:Who_To_Ask[Who to Ask]
 
-== NAOs
+== Hardware
 
-- link:Nao_Ana[Anastasia]
-- link:Nao_Tom[Tom]
-- link:Nao_Luc[Luc]
-- link:Nao_Judy[Judy]
-- link:Nao_Eve[Eve]
-- link:Nao_Bob[Bob]
-- link:Nao_Grace[Grace]
-- link:Nao_Donald[Donald]
-- link:Nao_Linus[Linus]
-- link:Nao_Margaret[Margaret]
+=== General
+- link:Hardware/General/Camera_Device_Files_V6[V6 Camera Devices Files]
+- link:Hardware/General/Completely_Reset_Nao[Completely Reset Nao]
+- link:Hardware/General/ConfiguringNewNao[Configuring new Nao]
 
-== Setup
+=== NAOs
+- link:Hardware/Naos/Ana[Anastasia]
+- link:Hardware/Naos/Tom[Tom]
+- link:Hardware/Naos/Luc[Luc]
+- link:Hardware/Naos/Judy[Judy]
+- link:Hardware/Naos/Eve[Eve]
+- link:Hardware/Naos/Bob[Bob]
+- link:Hardware/Naos/Grace[Grace]
+- link:Hardware/Naos/Donald[Donald]
+- link:Hardware/Naos/Linus[Linus]
+- link:Hardware/Naos/Margaret[Margaret]
 
-- link:GameSetup[Game Setup]
-- link:ConfiguringNewNao[Configuring new Nao]
+== Game
+
+- link:Game/GameSetup[Game Setup]
+- link:Game/Fieldsize[Field Size]
 
 == Tools
 
-- link:Mate[Mate]
+- link:DevelopementTools/Mate[Mate]
 
 == Code Docs
 
-=== Brain
+- link:CodeDocs/Team_Brain[Team Brain]
+- link:CodeDocs/Team_Motion[Team Motion]
+- link:CodeDocs/Team_Vision[Team Vision]
+- link:CodeDocs/Team_Tools[Team Tools]
 
-- link:Team_Brain[Team Brain]
-- link:Brain[Brain]
-- link:Regarding_Kicks[Regarding Kicks]
-- link:Helferlein[Helferlein]
+== Common Problems
 
-=== Motion
-
-- link:Team_Motion[Team Motion]
-
-=== Vision
-
-- link:Team_Vision[Team Vision]
-
-=== Tools
-
-- link:Team_Tools[Team Tools]
+- link:CommonProblems/Upload_Configs[Try to open sharedMemory]
