@@ -1,0 +1,26 @@
+= Simrobot
+
+Commands are executed in the project root.
+
+== Compile
+
+== Setup
+
+[source,shell script]
+----
+./scripts/midas setup sim
+----
+
+== Compile
+
+[source,shell script]
+----
+./scripts/midas compile develop sim
+----
+
+== Start Simrobot
+
+
+
+
+

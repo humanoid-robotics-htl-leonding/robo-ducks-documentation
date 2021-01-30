@@ -1,4 +1,0 @@
-= Roboducks Documentation
-
-This is used as a documentation for the Roboducks team. You can look at the documentation
-https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/[here]
