@@ -1,0 +1,77 @@
+= Getting Started
+:toc: left
+ifdef::backend-html5[]
+
+== Requirements
+
+- Linux
+- (Clion)
+- (GitKraken)
+
+() ... recommended
+
+== Setup
+
+First things first clone the main Repository onto your computer.
+
+[source,shell]
+----
+git clone https://github.com/humanoid-robotics-htl-leonding/robo-ducks-core
+----
+
+If you are no member of the humanoid robotics organisation, ask one of the older students. After the clone you should execute the following script. (This guide assumes you are in the project root).
+
+[source,shell]
+----
+cd setup
+./install.sh
+----
+
+== Compile for SimRobot
+After the the install.sh script the SimRobot should be compiled. To compile the roboducks Software for the SimRobot you need to execute the following command.
+
+[source,shell]
+----
+./scripts/midas setup sim
+----
+
+Once the setup for the SimRobot is complete the roboducks application must be compiled.
+
+[source,shell]
+----
+./scripts/midas compile develop sim
+----
+
+To run the Simrobot execute the following command.
+
+[source,shell]
+----
+./tools/SimRobot/build/Simrobot
+----
+
+For a guide how to use the SimRobot. Refer to the link:DevelopementTools/SimRobot.adoc[SimRobot] Document.
+
+== Compile for Nao V6
+Instead of Sim execute the setup command with nao6.
+
+[source,shell]
+----
+./scripts/midas setup nao 6
+----
+
+Once the setup for the nao V6 is complete the roboducks application must be compiled.
+
+
+[source,shell]
+----
+./scripts/midas compile develop nao6
+----
+
+After the compile you can you can upload the code with the following command.
+
+[source,shell]
+----
+./scripts/midas upload -c nao6 <address>
+----
+
+Make shure the nao is already ready for the soccer code. More Details look at link:DevelopementTools/Midas[Midas] page. The command you need is midas touch.

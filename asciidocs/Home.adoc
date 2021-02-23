@@ -1,9 +1,0 @@
-= Welcome to the robo-ducks-documentation wiki!
-
-https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/wiki/Instruction[Getting Started]
-
-== Compiling for the Nao
-Please take a look at https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/wiki/Midas[Midas]
-
-== I have a question, but who do I ask?
-If you have any questions click https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/wiki/Who-To-Ask[here]
