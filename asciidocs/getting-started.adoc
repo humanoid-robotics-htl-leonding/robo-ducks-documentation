@@ -49,7 +49,7 @@ To run the Simrobot execute the following command.
 ./tools/SimRobot/build/Simrobot
 ----
 
-For a guide how to use the SimRobot. Refer to the link:DevelopementTools/SimRobot.adoc[SimRobot] Document.
+For a guide how to use the SimRobot, refer to the link:DevelopementTools/SimRobot[SimRobot] Document.
 
 == Compile for Nao V6
 Instead of Sim execute the setup command with nao6.
@@ -74,4 +74,4 @@ After the compile you can you can upload the code with the following command.
 ./scripts/midas upload -c nao6 <address>
 ----
 
-Make shure the nao is already ready for the soccer code. More Details look at link:DevelopementTools/Midas[Midas] page. The command you need is midas touch.
+Make sure the nao is already ready for the soccer code. More Details look at link:DevelopementTools/Midas[Midas] page. The command you need is midas touch.
