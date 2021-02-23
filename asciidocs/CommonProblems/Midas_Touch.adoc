@@ -1,0 +1,9 @@
+= Midas Touch
+== Missing Packages
+
+It can occure that some packages are missing. Those can be install as followed:
+
+* paramiko (pip3 install paramiko)
+* spur  (pip3 install spur)
+* sshpass (apt install sshpass)
+
