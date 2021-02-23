@@ -85,3 +85,8 @@ In this case there will be two defenders and one bishop or support striker.
 ==== 6 Players
 
 Here there will be two defenders one support striker and one bishop guaranteed.
+
+==== How to force a robot a certain role?
+
+Just change the forceRole from none to the desired role.
+
