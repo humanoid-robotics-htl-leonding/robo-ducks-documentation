@@ -1,0 +1,7 @@
+= Roboducks Router 1
+
+- **SSID:** RoboducksRouter1_2G
+- **SSID:** RoboducksRouter1_5G
+- **password:** see (bottom of the router)
+- **admin-username:** naoadmin
+- **admin-password:** see (bottom of the router)
