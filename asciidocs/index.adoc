@@ -43,3 +43,4 @@ link:Who_To_Ask[Who to Ask]
 == Common Problems
 
 - link:CommonProblems/Upload_Configs[Try to open sharedMemory]
+- link:CommonProblems/Midas_Touch[Try to midas touch]
