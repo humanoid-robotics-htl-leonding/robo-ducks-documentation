@@ -17,6 +17,10 @@ link:Who_To_Ask[Who to Ask]
 - link:Hardware/General/Completely_Reset_Nao[Completely Reset Nao]
 - link:Hardware/General/ConfiguringNewNao[Configuring new Nao]
 
+=== Router
+- link:Hardware/Router/RoboducksRouter1[Roboducks Router 1 (prefered)]
+- link:Hardware/Router/RoboducksRouter2[Robocucks Router 2]
+
 === NAOs
 - link:Hardware/Naos/Ana[Anastasia]
 - link:Hardware/Naos/Tom[Tom]
