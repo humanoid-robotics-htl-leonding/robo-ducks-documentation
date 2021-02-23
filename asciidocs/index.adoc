@@ -1,6 +1,11 @@
-= Index
+= Roboducks Wiki
 :toc: left
 ifdef::backend-html5[]
+
+Welcome to the Roboducks wiki!
+
+== Getting Started
+- link:getting-started[getting started]
 
 == Who To Ask
 link:Who_To_Ask[Who to Ask]
