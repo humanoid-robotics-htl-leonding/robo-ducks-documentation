@@ -6,6 +6,7 @@ Welcome to the Roboducks wiki!
 
 == Getting Started
 - link:getting-started[getting started]
+- link:getting-started-documentation[getting started documentation]
 
 == Who To Ask
 link:Who_To_Ask[Who to Ask]

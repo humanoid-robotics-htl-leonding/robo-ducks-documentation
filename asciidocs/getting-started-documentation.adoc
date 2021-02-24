@@ -1,0 +1,31 @@
+= Getting started on writing Documentation
+ifndef::imagesdir[:imagesdir: ../images]
+ifndef::backend[:backend: html5]
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+== Write a new Asciidoc File
+
+Just create a Asciidoc file in the `asciidocs` directory. After that you can write the documentation you want to write in this file. When the file is finished it would be helpful if it is linked to the main page (index.adoc).
+
+== Add Pictures
+
+You can add pictures just as you would add images to a normal asciidoc file with the exception, that you only need to write the name and not the directories. This will definitely still be marked as an error. To avoid the error you can but the following at the start of the file.
+
+[source]
+----
+ ifndef::imagesdir[:imagesdir: ../images]
+----
+
+You can also just use the following template file.
+
+[source]
+----
+ ifndef::sourcedir[:sourcedir: ../src/main/java]
+ ifndef::imagesdir[:imagesdir: ../images]
+ ifndef::backend[:backend: html5]
+ :icons: font
+ :sectnums:    // Nummerierung der Überschriften / section numbering
+ :toc: left
+----
