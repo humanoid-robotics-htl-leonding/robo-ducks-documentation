@@ -1,8 +1,9 @@
 = Donald
 
+== General Info
+* Name: Bob
+* RoboDucks ready: x
+* Player no.: x
+* Body ID: x
 
-== General Info (Stand 15.11.2019)
-* Name: "Donald"
-
-=== 25.10.2019
-Geflasht, da man sich mit ssh verbinden konnte aber nicht über Choreographe.
+== Known Problems

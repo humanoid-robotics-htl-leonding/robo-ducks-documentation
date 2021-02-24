@@ -2,14 +2,12 @@
 
 == General Information
 * Name: Eve
+* RoboDucks ready: x
 * Player no.: 59
-* Foot contact problem (read below)
+* Body ID: x
 
-== 10.10.2019
+== Known Problems
+
+=== Foot contact problem
 * The right foot contact sensor alternates between true and false every second,
 no matter if she is standing or lifted up.
-
-== 18.06.2019
-* Changed password of "nao" to "nao"
-* Gammaray
-* Changed password of "nao" from "Faba8888" to "nao"

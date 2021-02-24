@@ -1,0 +1,3 @@
+= Adding Information for the Naos
+
+If there is an issue with a nao just write down the issue under Known Problems. In Generell Info ther are sometimes x. Those are for unknown fields please extend them if you can.

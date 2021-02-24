@@ -1,10 +1,9 @@
 = Tom
 
-== General Info (Stand 22.05.2019)
+== General Info
 * Name: "Tom"
+* RoboDucks ready: x
 * Player no.: 2
+* Body ID: x
 
-== 22.05.2019
-* Issued ```echo "Tom" > /etc/hostname```
-* Updated Language Packs
-
+== Known Problems

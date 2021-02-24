@@ -3,23 +3,18 @@
 
 == General Info (Stand 14.05.2019)
 * Name: "Judy"
+* RoboDucks ready: x
 * Player no.: 4
+* Body ID: x
 
-== 3.9.2019
-* swapped battery with battery of **this** box
-https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/blob/master/wiki_images/IMG_20190903_172328.jpg[Batterybox1]
+== Known Problems
 
-== 25.06.2019
-
+=== Stand up Problem
 Judy is not able to stand up because of the left hip motor.
 
-== 17.06.2019
-
-* Issued `echo "Judy" >> /etc/hostname`
-* Gammaray
-
-== 21.05.2019
+=== Camera Feed Problem
 We could not retrieve Judy's camera feed.
+
 * Compiled and uploaded (with -c)
 * Gammaray
 * Didn't help
@@ -28,7 +23,7 @@ We could not retrieve Judy's camera feed.
 * Compiled and uploaded (with -c)
 * Didn't help
 
-== 14.05.2019
+=== Tuhh Nao Problem
 We tried to run tuhhnao on Judy. Then this error occurred.
 
 [source]

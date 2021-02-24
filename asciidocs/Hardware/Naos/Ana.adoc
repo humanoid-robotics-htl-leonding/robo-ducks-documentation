@@ -1,25 +1,18 @@
 = Anastasia
 
-== General Info (Stand 22.05.2019)
+== General Info
 * Name: Anastasia
+* RoboDucks ready: x
 * Player no.: 1
 * Body ID: ALDR1312N090180
-* Schraubengewinde des Batteriefachs fallen raus --> Akku fällt manchmal raus --> Sudden shut down
 
-== 25.10.2019
+== Known Problems
+
 === Sudden Shutdown
 * Battery is falling out because of broken threadings.
-
-== 25.06.2019
 
 === Hardware Error
 * fan is broken
 * left hand isn't working well
 * left hip is completely wrong aligned
 * right hip is minimal wrong aligned
-
-== 22.05.2019
-* Issued ```echo "Anastasia" > /etc/hostname```
-
-== 14.05.2019
-Tuhhnao can be started.

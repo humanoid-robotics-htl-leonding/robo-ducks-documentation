@@ -2,34 +2,27 @@
 
 == General Info
 * Name: Luc
+* RoboDucks ready: x
 * Player no.: 3
-* Possibly a V3 Nao?
+* Body ID: x
 
-== 26.06.2019
+== Known Problems
 
+=== Possibly a V3 Nao?
+
+=== No German installed
 No german installed !!
+
+=== Maybe Problem with the Wln card
 There might be a problem with the wlan card.
 
-== 18.06.2019
-* Flashed
-* Gammarayed with #3
-* Copied Sysroot with #3
-* Sysroot Luc
-
-**PROBLEM**:
-
+=== Unresponsive after tuhh Nao start
 * Tried to start tuhhNao
 * Worked, but shell immediately gets less responsive
 * As soon as he starts the main-thread the shell loses connection and Luc cannot be pinged.
 * After a time he enters a "Ugnak Nuk"-Loop where he says it every minute or so.
 
-== 22.05.2019
-* Started Web-Interface-Setup
-* Name: "Luc"
-* Account: None
-* Issued ```echo "Luc" > /etc/hostname```
-
-== 14.05.2019
+=== No Response Chest Button
 When starting tuhh on Luc, everything looks fine, but he does not respond to pressing the chest button. After some time the chest light becomes red and he does nothing.
 
 * Gammaray

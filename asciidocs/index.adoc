@@ -33,6 +33,10 @@ link:Who_To_Ask[Who to Ask]
 - link:Hardware/Naos/Linus[Linus]
 - link:Hardware/Naos/Margaret[Margaret]
 
+==== Important Information
+
+- link:Hardware/Naos/adding-information[How to add Information to one of the Nao Documents]
+
 == Game
 
 - link:Game/GameSetup[Game Setup]
