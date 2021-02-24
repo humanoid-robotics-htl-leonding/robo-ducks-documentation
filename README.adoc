@@ -1,0 +1,9 @@
+= Roboducks Documentation
+
+You can find the Documentation Github Pages link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/[here]
+
+== Important Documents:
+
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/getting-started[getting started]
+
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/getting-started-documentation[getting started documentation]
