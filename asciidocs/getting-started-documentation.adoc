@@ -11,7 +11,7 @@ Just create a Asciidoc file in the `asciidocs` directory. After that you can wri
 
 == Add Pictures
 
-You can add pictures just as you would add images to a normal asciidoc file with the exception, that you only need to write the name and not the directories. This will definitely still be marked as an error. To avoid the error you can but the following at the start of the file.
+You can add pictures just as you would add images to a normal asciidoc file with the exception, that you only need to write the name and not the directories. This will definitely still be marked as an error. To avoid the error you can put the following at the start of the file.
 
 [source]
 ----
