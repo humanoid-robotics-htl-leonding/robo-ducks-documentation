@@ -20,7 +20,19 @@ CURRENT_FOLDER=${PWD}
 echo "pwd -> ${CURRENT_FOLDER}"
 echo "adoc-folder->${CURRENT_FOLDER}/${BUILD_DIR}/*.adoc"
 
+echo "=== compiling ==="
 for f in $(find $BUILD_DIR -type f -name "*.adoc"); do
+    pos="/documents/${f%/*}" ref="/documents/gh-pages/images" down=''
+
+    while :; do
+        test "$pos" = '/' && break
+        case "$ref" in $pos/*) break;; esac
+        down="../$down"
+        pos=${pos%/*}
+    done
+
+    imgfolder="$down${ref##$pos/}"
+
   echo "compiling $f"
   asciidoctor \
     -r asciidoctor-diagram \
@@ -30,7 +42,7 @@ for f in $(find $BUILD_DIR -type f -name "*.adoc"); do
     -a rouge-theme=github \
     -a rouge-linenums-mode=inline \
     -a docinfo=shared \
-    -a imagesdir=images \
+    -a imagesdir="$imgfolder" \
     -a toc=left \
     -a toclevels=2 \
     -a sectanchors=true \
