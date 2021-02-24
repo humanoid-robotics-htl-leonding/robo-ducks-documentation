@@ -21,6 +21,7 @@ echo "pwd -> ${CURRENT_FOLDER}"
 echo "adoc-folder->${CURRENT_FOLDER}/${BUILD_DIR}/*.adoc"
 
 for f in $(find $BUILD_DIR -type f -name "*.adoc"); do
+  echo "compiling $f"
   asciidoctor \
     -r asciidoctor-diagram \
     -a icons=font \
