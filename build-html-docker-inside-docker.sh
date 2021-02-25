@@ -21,6 +21,8 @@ echo "pwd -> ${CURRENT_FOLDER}"
 echo "adoc-folder->${CURRENT_FOLDER}/${BUILD_DIR}/*.adoc"
 
 echo "=== compiling ==="
+numberOfFiles=$(find $BUILD_DIR -type f -name "*.adoc" | wc -l)
+i=1
 for f in $(find $BUILD_DIR -type f -name "*.adoc"); do
     pos="/documents/${f%/*}" ref="/documents/gh-pages/images" down=''
 
@@ -33,7 +35,7 @@ for f in $(find $BUILD_DIR -type f -name "*.adoc"); do
 
     imgfolder="$down${ref##$pos/}"
 
-  echo "compiling $f"
+  echo "[$((i*100 / numberOfFiles)) %] compiling $f"
   asciidoctor \
     -r asciidoctor-diagram \
     -a icons=font \
@@ -52,6 +54,8 @@ for f in $(find $BUILD_DIR -type f -name "*.adoc"); do
     -b html5 \
     "$f"
   rm "$f"
+
+  i=$((i+1))
 done
 
 rm -rf ./.asciidoctor
