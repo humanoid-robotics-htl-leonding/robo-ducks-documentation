@@ -46,6 +46,8 @@ link:Who_To_Ask[Who to Ask]
 == Tools
 
 - link:DevelopementTools/Mate[Mate]
+- link:DevelopementTools/SimRobot[SimRobot]
+- link:DevelopementTools/Midas.adoc[Mate (not documented jet)]
 
 == Code Docs
 
