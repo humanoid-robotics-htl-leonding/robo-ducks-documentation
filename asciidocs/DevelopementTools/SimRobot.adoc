@@ -1,1 +1,77 @@
-need to be documented
+= SimRobot
+ifndef::sourcedir[:sourcedir: ../src/main/java]
+ifndef::imagesdir[:imagesdir: ../images]
+ifndef::backend[:backend: html5]
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+The SimRobot is a tool to simulate specific scenarios in the soccer game. Keep in mind the SimRobot environment is a perfect Condition for the robots. In the real life some things may be differently than in the SimRobot. Everything is required to get tested in the real-life environment before merging into develop.
+
+== How to use the SimRobot
+Every command will be executed in the root directory of the project.
+
+=== Setup for the SimRobot
+
+[source,shell]
+----
+./scripts/midas setup sim
+----
+
+=== Compile for the SimRobot
+
+[source,shell]
+----
+./scripts/midas compile develop sim
+----
+
+=== Start the SimRobot
+
+[source,shell]
+----
+./tools/SimRobot/build/SimRobot
+----
+
+After this command a window will open. In this window you need to select a scene.
+
+== Scenes
+Scenes can be different scenarious. Like one Robot alone on the small field or 4 Robots together on the small field. The different scenes are xml Files. Those xml files define where everything is located.
+
+== Configuring simulated Robots
+You can find the same configuration found in real-life under `home/configuration/location/simrobot`. The different robot configurations are in the head directory. There should be different folders like.
+
+image:filesConfiguration.png[]
+
+To find out which robot you are using in the SimRobot look into the xml file and search for something like this:
+
+[source,xml]
+----
+<Body ref="Nao" name="robot3">
+    <Translation x="-1" y="3" z="320mm"/>
+    <Rotation z="-90degree"/>
+</Body>
+----
+
+In this scenario robot3 is the robot in the Simulation. If you change the configuration in the robot3 directory then the robot in the simulation has other configurations.
+
+== Debugging a specific role with the SimRobot
+
+Find the Configuration folder for the robot you use in the Simmulation and open the `DucksPlayingRoleProvider.json` file. If the file does not exist just create it. The standard content for this configuration looks like this.
+
+[source,json]
+----
+{
+  "forceRole": "none"
+}
+----
+
+To change the role for the robot in the SimRobot replace the value none with the wished role. For example:
+
+[source,json]
+----
+{
+  "forceRole": "striker"
+}
+----
+
+*important*: Don't push these changes to Github.
