@@ -42,6 +42,7 @@ link:Who_To_Ask[Who to Ask]
 
 - link:Game/GameSetup[Game Setup]
 - link:Game/Fieldsize[Field Size]
+- link:Game/GameController[Game Controller (not documented jet)]
 
 == Tools
 
