@@ -34,6 +34,31 @@ Every command will be executed in the root directory of the project.
 
 After this command a window will open. In this window you need to select a scene.
 
+image:simrobot_start01.png[width=100%]
+
+Select the scene best for your test case
+
+image:simrobot_start02.png[]
+
+Double click the root scene
+
+image:simrobot_start03.png[width=100%]
+
+A window will open you can drag it back into the main window.
+
+image:simrobot_start04.png[]
+
+Start the Game by clicking HULKs in the Menu and then `Chest Button All Robots`. If the Game Controller runs
+in the background then, it will start with a single click otherwise you need to repeat this action 3 Times.
+It ist recommended using the Game Controller. More on the GameController link:../Game/GameController[here].
+
+image:simrobot_start05.png[]
+
+
+
+
+
+
 == Scenes
 Scenes can be different scenarious. Like one Robot alone on the small field or 4 Robots together on the small field. The different scenes are xml Files. Those xml files define where everything is located.
 
