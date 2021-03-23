@@ -1,0 +1,24 @@
+# Renaming of a Nao
+
+Establish a connection with the given ip address of the nao.
+The password is *nao*.
+
+[source,shell]
+----
+ssh nao@address
+----
+
+Switch into superuser. +
+The password should be *nao* or *root*.
+
+[source,shell]
+----
+su
+----
+
+Now you should be able to change the name in hostname.
+[source,shell]
+----
+echo newName > /etc/hostname
+----
+
