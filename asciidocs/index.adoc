@@ -43,13 +43,13 @@ link:Who_To_Ask[Who to Ask]
 
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Game/GameSetup[Game Setup]
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Game/Fieldsize[Field Size]
-- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Game/GameController[Game Controller (not documented jet)]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Game/GameController[Game Controller (not documented yet)]
 
 == Tools
 
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/DevelopementTools/Mate[Mate]
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/DevelopementTools/SimRobot[SimRobot]
-- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/DevelopementTools/Midas.adoc[Mate (not documented jet)]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/DevelopementTools/Midas.adoc[Mate (not documented yet)]
 
 == Code Docs
 

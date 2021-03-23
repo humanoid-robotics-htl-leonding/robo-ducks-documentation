@@ -1,3 +1,3 @@
 = Game Controller
 
-(not documented jet)
+(not documented yet)
