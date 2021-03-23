@@ -5,8 +5,8 @@ ifdef::backend-html5[]
 Welcome to the Roboducks wiki!
 
 == Getting Started
-- link:getting-started[getting started]
-- link:getting-started-documentation[getting started documentation]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/getting-started[getting started]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/getting-started-documentation[getting started documentation]
 
 == Who To Ask
 link:Who_To_Ask[Who to Ask]
@@ -14,51 +14,51 @@ link:Who_To_Ask[Who to Ask]
 == Hardware
 
 === General
-- link:Hardware/General/Camera_Device_Files_V6[V6 Camera Devices Files]
-- link:Hardware/General/Completely_Reset_Nao[Completely Reset Nao]
-- link:Hardware/General/ConfiguringNewNao[Configuring new Nao]
-- link:Hardware/General/rename-nao.adoc[Renaming a Nao]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/General/Camera_Device_Files_V6[V6 Camera Devices Files]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/General/Completely_Reset_Nao[Completely Reset Nao]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/General/ConfiguringNewNao[Configuring new Nao]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/General/rename-nao[Renaming a Nao]
 
 === Router
-- link:Hardware/Router/RoboducksRouter1[Roboducks Router 1 (prefered)]
-- link:Hardware/Router/RoboducksRouter2[Robocucks Router 2]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Router/RoboducksRouter1[Roboducks Router 1 (prefered)]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Router/RoboducksRouter2[Robocucks Router 2]
 
 === NAOs
-- link:Hardware/Naos/Ana[Anastasia]
-- link:Hardware/Naos/Tom[Tom]
-- link:Hardware/Naos/Luc[Luc]
-- link:Hardware/Naos/Judy[Judy]
-- link:Hardware/Naos/Eve[Eve]
-- link:Hardware/Naos/Bob[Bob]
-- link:Hardware/Naos/Grace[Grace]
-- link:Hardware/Naos/Donald[Donald]
-- link:Hardware/Naos/Linus[Linus]
-- link:Hardware/Naos/Margaret[Margaret]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Ana[Anastasia]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Tom[Tom]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Luc[Luc]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Judy[Judy]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Eve[Eve]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Bob[Bob]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Grace[Grace]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Donald[Donald]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Linus[Linus]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Margaret[Margaret]
 
 ==== Important Information
 
-- link:Hardware/Naos/adding-information[How to add Information to one of the Nao Documents]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/adding-information[How to add Information to one of the Nao Documents]
 
 == Game
 
-- link:Game/GameSetup[Game Setup]
-- link:Game/Fieldsize[Field Size]
-- link:Game/GameController[Game Controller (not documented jet)]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Game/GameSetup[Game Setup]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Game/Fieldsize[Field Size]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Game/GameController[Game Controller (not documented jet)]
 
 == Tools
 
-- link:DevelopementTools/Mate[Mate]
-- link:DevelopementTools/SimRobot[SimRobot]
-- link:DevelopementTools/Midas.adoc[Mate (not documented jet)]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/DevelopementTools/Mate[Mate]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/DevelopementTools/SimRobot[SimRobot]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/DevelopementTools/Midas.adoc[Mate (not documented jet)]
 
 == Code Docs
 
-- link:CodeDocs/Team_Brain[Team Brain]
-- link:CodeDocs/Team_Motion[Team Motion]
-- link:CodeDocs/Team_Vision[Team Vision]
-- link:CodeDocs/Team_Tools[Team Tools]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/CodeDocs/Team_Brain[Team Brain]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/CodeDocs/Team_Motion[Team Motion]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/CodeDocs/Team_Vision[Team Vision]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/CodeDocs/Team_Tools[Team Tools]
 
 == Common Problems
 
-- link:CommonProblems/Upload_Configs[Try to open sharedMemory]
-- link:CommonProblems/Midas_Touch[Try to midas touch]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/CommonProblems/Upload_Configs[Try to open sharedMemory]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/CommonProblems/Midas_Touch[Try to midas touch]
