@@ -17,6 +17,7 @@ link:Who_To_Ask[Who to Ask]
 - link:Hardware/General/Camera_Device_Files_V6[V6 Camera Devices Files]
 - link:Hardware/General/Completely_Reset_Nao[Completely Reset Nao]
 - link:Hardware/General/ConfiguringNewNao[Configuring new Nao]
+- link:Hardware/General/rename-nao.adoc[Renaming a Nao]
 
 === Router
 - link:Hardware/Router/RoboducksRouter1[Roboducks Router 1 (prefered)]
