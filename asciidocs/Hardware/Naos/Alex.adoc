@@ -1,0 +1,15 @@
+= Alex
+
+== General Info
+* Name: Alex
+* RoboDucks ready: x
+* Player no.: 2
+* Body ID: P0000073A05S88M00001
+* Head ID: P0000074A03S88F00030
+* root password: nao
+* password: nao
+
+== Known Problems
+
+=== Missing Akku
+The Akku of Alex is dead and currently there is no akku for alex.

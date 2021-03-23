@@ -1,0 +1,14 @@
+= Adele
+
+== General Info
+* Name: Adele
+* RoboDucks ready: yes
+* Player no.: 2
+* Body ID: P0000073A10S98G00047
+* Head ID: P0000074A05S98G00041
+* root password: root
+* password: nao
+
+== Known Problems
+
+

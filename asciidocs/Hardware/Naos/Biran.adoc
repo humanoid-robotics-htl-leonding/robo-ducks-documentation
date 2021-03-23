@@ -1,0 +1,11 @@
+= Brian
+
+== General Info
+* Name: Brian
+* RoboDucks ready: No
+* Player no.: x
+* Body ID: x
+* root password: nao
+* password: nao
+
+== Known Problems
