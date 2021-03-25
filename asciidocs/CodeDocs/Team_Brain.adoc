@@ -19,3 +19,4 @@ To get help with problems with the Brain component, https://www.youtube.com/watc
 - link:BrainDocs/Brain[Brain]
 - link:BrainDocs/Regarding_Kicks[Regarding Kick]
 - link:BrainDocs/Helferlein[Helferlein]
+- link:BrainDocs/DefenderDocs/Besprechungsprotokoll[Defender Besprechungsprotokoll]
