@@ -1,5 +1,9 @@
 = Besprechungsprotokoll
 
 == 25.3.2021 - Github Branches und Documentation
+Besprechung mit Quirin Ecker
+
+== 30.3.2021 - In Code einlesen
+
 
 
