@@ -20,8 +20,8 @@ link:Who_To_Ask[Who to Ask]
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/General/rename-nao[Renaming a Nao]
 
 === Router
-- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Router/RoboducksRouter1[Roboducks Router 1 (prefered)]
-- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Router/RoboducksRouter2[Robocucks Router 2]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Router/RoboducksRouter1[Roboducks Router 1]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Router/RoboducksRouter2[Robocucks Router 2 (preferred)]
 
 === NAOs
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Ana[Anastasia]
