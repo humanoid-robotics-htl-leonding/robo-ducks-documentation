@@ -3,7 +3,7 @@ name: asciidoctor github pages
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 
 jobs:
   build:
@@ -16,8 +16,9 @@ jobs:
         uses: actions/checkout@v2
       - name: Use Docker
         run: |
-          chmod a+x ./build-gh-actions.sh
-          ./build-gh-actions.sh
+          chmod a+x ./build-html-docker-inside-docker.sh
+          ./build-html-docker-inside-docker.sh
+
       - name: Archive build
         if: success()
         uses: actions/upload-artifact@v1
