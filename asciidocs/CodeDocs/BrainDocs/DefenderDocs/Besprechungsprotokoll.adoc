@@ -1,10 +1,11 @@
 = Besprechungsprotokoll
 
+== 18.03.
+image::18_03[]
+
 == 25.3.2021 - Github Branches und Documentation
-Besprechung mit Quirin Ecker
+Besprechung und Erklärung mit Quirin Ecker
 
 == 30.3.2021 - In Code einlesen
-
-
-update with github actions
+image::30_03[]
 
