@@ -9,3 +9,16 @@ Besprechung und Erklärung mit Quirin Ecker
 == 30.3.2021 - In Code einlesen
 image::30_03[]
 
+== Links
+https://docs.google.com/spreadsheets/d/1blyKS2034_F_qe8kMGiO8GA5alktWS0wfoeLrA27iSQ/edit?usp=sharing[Arbeitsaufwand]
+
+https://docs.google.com/document/d/1Z83_uVUi83DKuxEfpCCLBixJvfoiPKjZKq8uVbsqo9o/edit#heading=h.z6ne0og04bp5[Projektvorschlag (alt)]
+
+https://docs.google.com/spreadsheets/d/1Yj0wVIf972hDHwps_CmuIQDhTR8pSunYw3GH94OKpyA/edit#gid=0[Besprechungsprotokolle]
+
+https://docs.google.com/document/d/12Dm-LgAhPZjPog1xCutF7M737pla0mqX0YnTwBOmVnU/edit#heading=h.j4624i8epzjr[Fehlermeldungen]
+
+https://docs.google.com/document/d/1VIx_aNSGyNnRk6vxszDVzglBhfOfx-ZzmsQIcsVIxKw/edit[Erklärung zum Code]
+
+https://docs.google.com/document/d/1LvqMW9KTIDUM2lmp41K2mHIIxHIJ4g5-S2ypQnzZjr4/edit[Klassenbeschreibung]
+
