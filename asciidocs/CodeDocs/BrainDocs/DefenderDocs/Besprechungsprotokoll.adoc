@@ -10,7 +10,7 @@ Besprechung und Erklärung mit Quirin Ecker
 image::30_03[]
 
 == 16.04.2021 - Klassenbeschreibung
-image::16_04.JPG[]
+image::16_04[]
 
 == Links
 https://docs.google.com/spreadsheets/d/1blyKS2034_F_qe8kMGiO8GA5alktWS0wfoeLrA27iSQ/edit?usp=sharing[Arbeitsaufwand]
