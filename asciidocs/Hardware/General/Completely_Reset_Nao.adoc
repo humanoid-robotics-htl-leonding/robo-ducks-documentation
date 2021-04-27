@@ -2,9 +2,46 @@
 
 The purpose of this document is to illustrate the necessary steps to completely reset and flash a Nao.
 
-== Process
-1. Flash
-2. Setup via Webinterface
-3. Update?
-4. https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/wiki/Midas-Touch[Gammaray]
-5. https://github.com/humanoid-robotics-htl-leonding/robo-ducks-documentation/wiki/Midas[Compile and Upload]
+== Flash
+
+* This link will show you how to flash a nao Robot: https://www.robotlab.com/support/factory-reset-nao-robot-
+
+== Setup via Webinterface
+
+* connect the newly flashed nao to a computer with a ethernet cable
+* open a browser and make shure you are only connected with the ethernet port
+** Connection to another network with more naos can cause problems
+* open the webinterface with the browser by typing `nao.local` in the browser
+* Follow the Setup process
+** use a wlan with internet connection
+*** This is important because of the updates
+** use some aldebaran-robotics account
+
+== Rename the Robot
+
+=== SSH to the Robot
+
+[source,sh]
+----
+ssh nao@nao.local
+----
+
+you could use the ip instad of `nao.local`
+
+=== log into root
+
+[source,sh]
+----
+su
+----
+
+The root password for the nao is `root`. If it isn't root look into the documentation or re-flash the robot.
+
+=== edit the hostname file
+[source,sh]
+----
+echo {hostname} > /etc/hostname
+----
+
+=== restart
+exit out of the ssh connection and restart the nao.
