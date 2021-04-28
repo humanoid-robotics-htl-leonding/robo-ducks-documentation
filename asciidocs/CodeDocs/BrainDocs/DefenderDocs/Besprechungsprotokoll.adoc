@@ -30,3 +30,5 @@ https://docs.google.com/document/d/1LvqMW9KTIDUM2lmp41K2mHIIxHIJ4g5-S2ypQnzZjr4/
 https://docs.google.com/document/d/1QClMFMnsBHGqqgqYPDF4p6Vxh-tHQiS_2tmMovYWE-M/edit#[UML Einstiegsaufgabe]
 
 https://docs.google.com/document/d/1Z83_uVUi83DKuxEfpCCLBixJvfoiPKjZKq8uVbsqo9o/edit#heading=h.z6ne0og04bp5[Projektvorschlag (alt)]
+
+https://docs.google.com/document/d/1G4xE3-3XiV42aFft4n91HhlZ7RlV4cfsk9R9uYmXDZ4/edit[Klassendiagramm]
