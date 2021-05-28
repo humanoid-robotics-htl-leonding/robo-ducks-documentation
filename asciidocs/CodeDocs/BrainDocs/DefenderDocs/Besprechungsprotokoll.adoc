@@ -16,6 +16,12 @@ image::16_04[]
 image::30_04[]
 Wir wollen schauen, ob wir die VM auf das Schullaufwerk stellen können. Besprechung mit Sysadmin folgt in 1 Woche.
 
+== 14.05.2021 - Letzte Schritte
+image::14_05[]
+
+== 28.05.2021 - Code pushen
+image::28_05[]
+
 == Links
 https://docs.google.com/spreadsheets/d/1blyKS2034_F_qe8kMGiO8GA5alktWS0wfoeLrA27iSQ/edit?usp=sharing[Arbeitsaufwand]
 
