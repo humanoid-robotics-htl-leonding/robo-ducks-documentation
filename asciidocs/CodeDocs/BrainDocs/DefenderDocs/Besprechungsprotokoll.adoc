@@ -1,6 +1,6 @@
 = Besprechungsprotokoll
 
-== 18.03. 2021 - SimRobot Probleme
+== 18.03.2021 - SimRobot Probleme
 image::18_03[]
 
 == 25.3.2021 - Github Branches und Documentation
@@ -21,6 +21,9 @@ image::14_05[]
 
 == 28.05.2021 - Code pushen
 image::28_05[]
+
+== 18.06. 2021 - VM übergeben
+image::18_06[]
 
 == Links
 https://docs.google.com/spreadsheets/d/1blyKS2034_F_qe8kMGiO8GA5alktWS0wfoeLrA27iSQ/edit?usp=sharing[Arbeitsaufwand]
