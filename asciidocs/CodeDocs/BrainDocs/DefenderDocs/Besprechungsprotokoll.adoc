@@ -1,6 +1,6 @@
 = Besprechungsprotokoll
 
-== 18.03. 2021 - SimRobot Probleme
+== 18.03.2021 - SimRobot Probleme
 image::18_03[]
 
 == 25.3.2021 - Github Branches und Documentation
@@ -11,6 +11,19 @@ image::30_03[]
 
 == 16.04.2021 - Klassenbeschreibung
 image::16_04[]
+
+== 30.04.2021 - Vorbereitung
+image::30_04[]
+Wir wollen schauen, ob wir die VM auf das Schullaufwerk stellen können. Besprechung mit Sysadmin folgt in 1 Woche.
+
+== 14.05.2021 - Letzte Schritte
+image::14_05[]
+
+== 28.05.2021 - Code pushen
+image::28_05[]
+
+== 18.06. 2021 - VM übergeben
+image::18_06[]
 
 == Links
 https://docs.google.com/spreadsheets/d/1blyKS2034_F_qe8kMGiO8GA5alktWS0wfoeLrA27iSQ/edit?usp=sharing[Arbeitsaufwand]
@@ -26,3 +39,5 @@ https://docs.google.com/document/d/1LvqMW9KTIDUM2lmp41K2mHIIxHIJ4g5-S2ypQnzZjr4/
 https://docs.google.com/document/d/1QClMFMnsBHGqqgqYPDF4p6Vxh-tHQiS_2tmMovYWE-M/edit#[UML Einstiegsaufgabe]
 
 https://docs.google.com/document/d/1Z83_uVUi83DKuxEfpCCLBixJvfoiPKjZKq8uVbsqo9o/edit#heading=h.z6ne0og04bp5[Projektvorschlag (alt)]
+
+https://docs.google.com/document/d/1G4xE3-3XiV42aFft4n91HhlZ7RlV4cfsk9R9uYmXDZ4/edit[Klassendiagramm]
