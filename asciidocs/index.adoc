@@ -50,6 +50,7 @@ link:Who_To_Ask[Who to Ask]
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/DevelopementTools/Mate[Mate]
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/DevelopementTools/SimRobot[SimRobot]
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/DevelopementTools/Midas.adoc[Mate (not documented yet)]
+- link:DevelopementTools/installScript[install script]
 
 == Code Docs
 
