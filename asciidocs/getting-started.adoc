@@ -19,7 +19,7 @@ First things first clone the main Repository onto your computer.
 git clone https://github.com/humanoid-robotics-htl-leonding/robo-ducks-core
 ----
 
-If you are no member of the humanoid robotics organisation, ask one of the older students. After the clone you should execute the following script. (This guide assumes you are in the project root).
+If you are no member of the humanoid robotics organisation, ask one of the older students. After the clone you should execute the following script. (This guide assumes you are in the project root). More informations link:DevelopementTools/installScript.adoc[here]
 
 [source,shell]
 ----

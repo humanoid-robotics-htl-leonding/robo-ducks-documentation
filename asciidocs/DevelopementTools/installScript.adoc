@@ -1,0 +1,19 @@
+= Install Script
+
+== Description
+
+This shellscript is for installing the required dependencies for running the project.
+
+== How to use
+
+[source, bash]
+----
+cd setup
+./install.sh
+----
+
+== Common Issues
+
+=== package snapd not found
+
+On Linux Mint the snapd package is blocked by default. See link:https://unix.stackexchange.com/questions/593366/how-to-enable-snaps-support-on-linux-mint-20[].
