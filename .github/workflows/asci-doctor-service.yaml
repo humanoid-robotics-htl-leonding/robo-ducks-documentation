@@ -1,44 +1,32 @@
-name: asciidoctor github pages
+name: Docs
 
 on:
   push:
     branches:
       - 'main'
+    paths:
+      - docs/**
 
 jobs:
   build:
-    name: Build ⚙
+    name: Build & Publish 🚀
     runs-on: ubuntu-latest
-    container:
-      image: asciidoctor/docker-asciidoctor:latest
+    env:
+      INPUTPATH: asciidocs
+      OUTPUTPATH: dist
+      SLIDES: true
+      BRANCH: gh-pages
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Use Docker
-        run: |
-          chmod a+x ./build-html-docker-inside-docker.sh
-          ./build-html-docker-inside-docker.sh
-
-      - name: Archive build
-        if: success()
-        uses: actions/upload-artifact@v1
+      - uses: actions/checkout@v2
+      - name: Build
+        uses: quirinecker/asciidoctor-convert-action@main
         with:
-          name: gh-pages
-          path: gh-pages
-  deploy:
-    name: Deploy 🚀
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-      - name: Download build
-        uses: actions/download-artifact@v1
-        with:
-          name: gh-pages
+          slides: ${{ env.SLIDES }}
+          inputPath: ${{ env.INPUTPATH }}
+          outputPath: ${{ env.OUTPUTPATH }}
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: gh-pages
+          GITHUB_TOKEN: ${{ github.TOKEN }}
+          BRANCH: ${{ env.BRANCH }}
+          FOLDER: ${{ env.OUTPUTPATH }}
