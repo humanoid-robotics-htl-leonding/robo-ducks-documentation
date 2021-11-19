@@ -71,7 +71,7 @@ After the compile you can you can upload the code with the following command.
 
 [source,shell]
 ----
-./scripts/midas upload -c nao6 <address>
+./scripts/midas upload -c develop nao6 <address>
 ----
 
 Make sure the nao is already ready for the soccer code. More Details look at link:DevelopementTools/Midas[Midas] page. The command you need is midas touch.
