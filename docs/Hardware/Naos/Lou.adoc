@@ -1,0 +1,12 @@
+= Lou
+
+== General Info
+* Name: Lou
+* RoboDucks ready: x
+* Player no.: x
+* Body ID: P0000073A05S88M00017
+* Head ID: P0000074A03S88M00016
+* root password: root or nao
+* password: nao
+
+== Known Problems

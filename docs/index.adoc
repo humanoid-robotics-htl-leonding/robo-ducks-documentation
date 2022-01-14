@@ -34,6 +34,9 @@ link:Who_To_Ask[Who to Ask]
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Donald[Donald]
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Linus[Linus]
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Margaret[Margaret]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Alex[Alex]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Lou[Lou]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/Hardware/Naos/Adele[Adele]
 
 ==== Important Information
 
