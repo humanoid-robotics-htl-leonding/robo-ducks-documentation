@@ -11,8 +11,8 @@
 
 == Known Problems
 
-=== Missing Akku
-The Akku of Alex is dead and currently txhere is no akku for alex.
+=== Missing Battery
+The battery of Alex is dead and currently there is no battery for alex.
 
 === Feet Bumper Loose
-The Feet Bumper broke of on one of the feets
+The foot bumper is broken on one side.
