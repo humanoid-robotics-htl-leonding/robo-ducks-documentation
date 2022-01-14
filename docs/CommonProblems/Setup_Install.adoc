@@ -1,5 +1,4 @@
-= Midas Touch
-== Missing Packages
+= Setup fails
 
 It can occur that the install.sh script fails on a virtual machine during toolchain compilation. This might be due to the fact that the
 virtual machine only has a single CPU-core assigned.
