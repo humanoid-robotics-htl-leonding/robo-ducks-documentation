@@ -66,3 +66,4 @@ link:Who_To_Ask[Who to Ask]
 
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/CommonProblems/Upload_Configs[Try to open sharedMemory]
 - link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/CommonProblems/Midas_Touch[Try to midas touch]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/CommonProblems/Setup_Install[Setup fails on virtual machine]

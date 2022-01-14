@@ -1,0 +1,13 @@
+= Midas Touch
+== Missing Packages
+
+It can occur that the install.sh script fails on a virtual machine during toolchain compilation. This might be due to the fact that the
+virtual machine only has a single CPU-core assigned.
+
+Solution for Virtualbox:
+
+* Open Virtualbox
+* Select the machine -> Settings
+* Under Settings go to System -> Processor
+* Increase the amount of Processor(s) to at least 2 CPUs
+* Restart machine
