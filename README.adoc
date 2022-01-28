@@ -1,6 +1,6 @@
 = Roboducks Documentation
 
-You can find the Documentation Github Pages link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/[here]
+- link:https://humanoid-robotics-htl-leonding.github.io/robo-ducks-documentation/[Documentation]
 
 == Important Documents:
 
