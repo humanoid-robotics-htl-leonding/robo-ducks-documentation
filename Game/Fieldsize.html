@@ -796,6 +796,19 @@ pre.rouge {
 <div class="paragraph">
 <p>Just create a new json file in the configuration file and insert the data you want. FieldType Json files have the following format.</p>
 </div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Make sure you include all of the following json-keys or the nao will crash during startup with an error similar to:
+<code>Field Dimensions - Key: '[KEYNAME]' is missing in json map.</code>
+</td>
+</tr>
+</table>
+</div>
 <div class="listingblock">
 <div class="content">
 <pre class="rouge highlight"><code data-lang="json"><span class="p">{</span><span class="w">
@@ -885,6 +898,8 @@ pre.rouge {
         </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="mf">5.24</span><span class="p">,</span><span class="w">
         </span><span class="nl">"width"</span><span class="p">:</span><span class="w"> </span><span class="mf">3.38</span><span class="p">,</span><span class="w">
         </span><span class="nl">"lineWidth"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.06</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"goalBoxLength"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.39</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"goalBoxWidth"</span><span class="p">:</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span><span class="w">
         </span><span class="nl">"penaltyMarkerSize"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.06</span><span class="p">,</span><span class="w">
         </span><span class="nl">"penaltyMarkerDistance"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.73</span><span class="p">,</span><span class="w">
         </span><span class="nl">"penaltyAreaLength"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.39</span><span class="p">,</span><span class="w">
@@ -912,7 +927,7 @@ pre.rouge {
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-01-28 15:34:38 UTC
+Last updated 2022-02-11 16:09:55 UTC
 </div>
 </div>
 </body>
