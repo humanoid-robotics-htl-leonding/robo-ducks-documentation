@@ -57,6 +57,9 @@ For reference look at the configuration directory. For every Field Type is a Jso
 
 Just create a new json file in the configuration file and insert the data you want. FieldType Json files have the following format.
 
+IMPORTANT: Make sure you include all of the following json-keys or the nao will crash during startup with an error similar to:
+`Field Dimensions - Key: '[KEYNAME]' is missing in json map.`
+
 [source,json]
 ----
 {
@@ -139,6 +142,8 @@ This is the field JSON file for the 2021 SPL. After creating the json file you c
         "length": 5.24,
         "width": 3.38,
         "lineWidth": 0.06,
+        "goalBoxLength": 0.39,
+        "goalBoxWidth": 1.0,
         "penaltyMarkerSize": 0.06,
         "penaltyMarkerDistance": 0.73,
         "penaltyAreaLength": 0.39,
